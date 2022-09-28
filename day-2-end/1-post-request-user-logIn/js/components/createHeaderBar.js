@@ -7,7 +7,7 @@ function createHeaderBar() {
     const userName = getUserName();
     console.log("userName: ", userName);
 
-    let authLink = `<a href="/login.html" class="${pathname === "/login.html" ? "text-blue-600" : ""}">LogIn</a>`;
+    let authLink = `<a href="/login.html" class="${pathname === "/signup.html" ? "text-blue-600" : ""}">LogIn</a>`;
     if (userName) {
         authLink = `<span>Hello 👋  ${userName}</span>`
     }
