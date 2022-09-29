@@ -49,7 +49,7 @@ if (createPostForm) {
             }
 
             const accessToken = getToken();
-            (async function logInUser() {
+            (async function createPost() {
                 const response = await fetch(CREATE_POST_URL, {
                     method: "POST",
                     headers: {
