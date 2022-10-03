@@ -37,7 +37,7 @@ console.log(accessToken);
       const secondsSinceCreated = now.diff(created, 'seconds');
       console.log('secondsSinceCreated: ', secondsSinceCreated);
       postsContainer.innerHTML += `
-            <li class="relative px-4 py-5 bg-white focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 hover:bg-gray-50">
+            <li class="bg-zinc-200 rounded-2xl relative px-4 py-5 bg-white focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 hover:bg-gray-50">
                 <div class="flex justify-between space-x-3">
                     <div class="flex-1 min-w-0">
                         <a href="#" class="block focus:outline-none">
